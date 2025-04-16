@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+header{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+a{
+    color: rgb(228, 227, 227);
+    text-decoration: none;
+}
+.logo-apple{
+    width: 30px;
+    height: 30px;
+}
+.busqueda-compra{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.logo-busqueda{
+    width: 25px;
+    height: 25px;
+}
+.logo-compra{
+    width: 30px;
+    height: 30px;
+}
+main{
+    display: flex;
+    gap: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.main-content{
+    max-width: 500px;
+    color: white;
+    margin-top: 50px;
+}
+h1{
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 40px;
+}
+p{
+    margin-bottom: 40px;
+    color: gray;
+}
+.airpods-pro{
+    width: 600px;
+    height: 600px;
+}
+.button-group{
+    display: flex;
+    gap: 30px;
+    
+}
+.learn-button{
+    border-radius: 0;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: white;
+}
+.buy-button{
+    border-radius: 0;
+    padding: 10px 20px;
+}
