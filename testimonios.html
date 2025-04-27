@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-gray-500">
-    <div class="grid grid-rows-[auto_1fr] min-h-screen">
+    <div class="grid grid-rows-[auto_1fr_auto] min-h-screen">
 
         <!--Navbar -->
         <nav class="flex justify-between bg-zinc-800 text-white px-6 py-6">
@@ -19,32 +19,32 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4">
           
             <!-- Sidebar -->
-            <aside class="md:col-span-1 bg-sky-200 p-4 rounded shadow max-h-[300px] overflow-auto">
+            <aside class="md:col-span-1 bg-sky-200 p-4 rounded-2xl max-h-[300px]">
                 <h2 class="font-semibold mb-2">Filtrar por:</h2>
-                <ul class="space-y-2">
-                    <li><a href="#" class="text-blue-600 hover:underline">Positivos</a></li>
-                    <li><a href="#" class="text-blue-600 hover:underline">Neutros</a></li>
-                    <li><a href="#" class="text-blue-600 hover:underline">Negativos</a></li>
+                <ul class="space-y-4">
+                    <li><a href="#" class="text-blue-600 hover:underline">Positivos (380)</a></li>
+                    <li><a href="#" class="text-blue-600 hover:underline">Neutros (50)</a></li>
+                    <li><a href="#" class="text-blue-600 hover:underline">Negativos (20)</a></li>
                 </ul>
             </aside>
       
             <!-- Testimonios -->
-            <main class="text-xl md:col-span-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-h-[300px] overflow-auto">
-                <article class="bg-cyan-500 p-4 rounded-4xl shadow">
-                    <h3 class="font-bold">Juan Pérez</h3>
+            <main class="text-xl md:col-span-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-h-[300px]">
+                <article class="bg-cyan-500 p-4 rounded-4xl">
+                    <h3 class="font-bold">José Castillo</h3>
                     <p>¡Excelente producto, me encantó!</p>
                     <div class="text-yellow-400 text-2xl">
                         ⭐⭐⭐⭐⭐
                     </div>
                 </article>
-                <article class="bg-cyan-500 p-4 rounded-4xl shadow">
-                    <h3 class="font-bold">Laura Gómez</h3>
+                <article class="bg-cyan-500 p-4 rounded-4xl">
+                    <h3 class="font-bold">Laura Sánchez</h3>
                     <p>Buen producto, pero esperaba más duración.</p>
                     <div class="text-yellow-400 text-2xl">
                         ⭐⭐⭐ ☆ ☆
                     </div>
                 </article>
-                <article class="bg-cyan-500 p-4 rounded-4xl shadow">
+                <article class="bg-cyan-500 p-4 rounded-4xl">
                     <h3 class="font-bold">Carlos Díaz</h3>
                     <p>No me convenció del todo.</p>
                     <div class="text-yellow-400 text-2xl">
@@ -53,6 +53,10 @@
                 </article>
             </main>
         </div>
+        <!-- Footer -->
+        <footer class="bg-zinc-800 text-white text-center p-4">
+            <p>© 2025 Apple. Todos los derechos reservados.</p>
+        </footer>
     </div>
       
 </body>

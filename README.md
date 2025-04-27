@@ -1,1 +1,3 @@
 # product-landing-page
+## Librería que escogí: Tailwind CSS.
+Porque me permite crear diseños a medida utilizando clases para controlar cada propiedad de estilo, como márgenes, colores, diseño, etc. Esto te da un control mucho más fino sobre el diseño y te permite crear interfaces únicas sin tener que sobrescribir estilos predeterminados. Además, me permite incluir las clases necesarias, lo que reduce el tamaño del archivo CSS en comparación con Bootstrap.
